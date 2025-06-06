@@ -1,3 +1,10 @@
+#
+linhas = 3
+colunas = 3
+
+matriz_lc = [[random.randint(1, 9) for j in range(colunas)] for i in range(linhas)]
+print(matriz_lc)
+
 #list comprehension:
 lista = [j for j in range(3)]
 
